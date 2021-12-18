@@ -127,6 +127,7 @@ The servers are listed in alphabetical order. To get best results reorder them f
 
 | Pool Name | Pool Homepage | Details about connection |
 | --------- | ------------- | - |
+| [pool-node.com](#pool-node.com) | <https://pool-node.com/> |  |
 | [2miners.com](#2minerscom) | <https://2miners.com/> | <https://eth.2miners.com/en/help> |
 | [dwarfpool.org](#dwarfpoolorg) | <https://dwarfpool.com/> | <https://dwarfpool.com/eth> |
 | [ethermine.org](#ethermineorg) | <https://ethermine.org/> | <https://ethermine.org/> |
@@ -186,6 +187,22 @@ Without email
 HINTS:
 
 * Use "%40" for the @-sign in your email address
+
+### pool-node.com
+
+Non-SSL connection:
+
+```
+-P stratum1+tcp://ETH_WALLET.WORKERNAME@etc-solo.pool-node.com:7000
+-P stratum1+tcp://ETH_WALLET.WORKERNAME@etc-solo.pool-node.com:7000
+```
+
+SSL connection:
+
+```
+-P stratum1+ssl://ETH_WALLET.WORKERNAME@etc-solo.pool-node.com:7002
+-P stratum1+ssl://ETH_WALLET.WORKERNAME@etc-solo.pool-node.com:7002
+```
 
 ### ethermine.org
 
